@@ -61,11 +61,29 @@ namespace ConsoleTestApp {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to sssssss.
+        /// </summary>
+        internal static string otherStuff {
+            get {
+                return ResourceManager.GetString("otherStuff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to test 1.
         /// </summary>
         internal static string test {
             get {
                 return ResourceManager.GetString("test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ttttty.
+        /// </summary>
+        internal static string title {
+            get {
+                return ResourceManager.GetString("title", resourceCulture);
             }
         }
     }
